@@ -27,6 +27,9 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label label10;
+		//private System.Windows.Forms.Label label9;
 		//private System.Windows.Forms.Label label1;
 		//private System.Windows.Forms.Label label2;
 		
@@ -58,12 +61,14 @@ namespace Hava_Durumu
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.SuspendLayout();
@@ -125,7 +130,7 @@ namespace Hava_Durumu
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(145, 38);
+			this.label2.Location = new System.Drawing.Point(145, 40);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(49, 23);
 			this.label2.TabIndex = 4;
@@ -133,6 +138,8 @@ namespace Hava_Durumu
 			// 
 			// panel2
 			// 
+			this.panel2.Controls.Add(this.label10);
+			this.panel2.Controls.Add(this.label9);
 			this.panel2.Controls.Add(this.label8);
 			this.panel2.Controls.Add(this.label7);
 			this.panel2.Controls.Add(this.label6);
@@ -144,45 +151,16 @@ namespace Hava_Durumu
 			this.panel2.Size = new System.Drawing.Size(703, 365);
 			this.panel2.TabIndex = 5;
 			// 
-			// label3
+			// label8
 			// 
-			this.label3.BackColor = System.Drawing.Color.Maroon;
-			this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label3.Location = new System.Drawing.Point(3, 3);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 63);
-			this.label3.TabIndex = 0;
-			this.label3.Text = "label3";
-			// 
-			// label4
-			// 
-			this.label4.BackColor = System.Drawing.Color.Maroon;
-			this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label4.Location = new System.Drawing.Point(3, 70);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(100, 55);
-			this.label4.TabIndex = 1;
-			this.label4.Text = "label4";
-			// 
-			// label5
-			// 
-			this.label5.BackColor = System.Drawing.Color.Maroon;
-			this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label5.Location = new System.Drawing.Point(3, 130);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(100, 55);
-			this.label5.TabIndex = 2;
-			this.label5.Text = "label5";
-			// 
-			// label6
-			// 
-			this.label6.BackColor = System.Drawing.Color.Maroon;
-			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label6.Location = new System.Drawing.Point(3, 190);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(100, 55);
-			this.label6.TabIndex = 3;
-			this.label6.Text = "label6";
+			this.label8.BackColor = System.Drawing.Color.Maroon;
+			this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label8.Location = new System.Drawing.Point(3, 310);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(174, 55);
+			this.label8.TabIndex = 5;
+			this.label8.Text = "label8";
+			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label7
 			// 
@@ -190,19 +168,76 @@ namespace Hava_Durumu
 			this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.label7.Location = new System.Drawing.Point(3, 250);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(100, 55);
+			this.label7.Size = new System.Drawing.Size(174, 55);
 			this.label7.TabIndex = 4;
 			this.label7.Text = "label7";
+			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label8
+			// label6
 			// 
-			this.label8.BackColor = System.Drawing.Color.Maroon;
-			this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label8.Location = new System.Drawing.Point(3, 310);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(100, 55);
-			this.label8.TabIndex = 5;
-			this.label8.Text = "label8";
+			this.label6.BackColor = System.Drawing.Color.Maroon;
+			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label6.Location = new System.Drawing.Point(3, 190);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(174, 55);
+			this.label6.TabIndex = 3;
+			this.label6.Text = "label6";
+			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label5
+			// 
+			this.label5.BackColor = System.Drawing.Color.Maroon;
+			this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label5.Location = new System.Drawing.Point(3, 130);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(174, 55);
+			this.label5.TabIndex = 2;
+			this.label5.Text = "label5";
+			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label4
+			// 
+			this.label4.BackColor = System.Drawing.Color.Maroon;
+			this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label4.Location = new System.Drawing.Point(3, 70);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(174, 55);
+			this.label4.TabIndex = 1;
+			this.label4.Text = "label4";
+			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label3
+			// 
+			this.label3.BackColor = System.Drawing.Color.Maroon;
+			this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label3.Location = new System.Drawing.Point(3, 3);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(174, 63);
+			this.label3.TabIndex = 0;
+			this.label3.Text = "TARIH";
+			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label9
+			// 
+			this.label9.BackColor = System.Drawing.Color.Maroon;
+			this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label9.Location = new System.Drawing.Point(183, 3);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(520, 20);
+			this.label9.TabIndex = 6;
+			this.label9.Text = "TARIH";
+			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label10
+			// 
+			this.label10.BackColor = System.Drawing.Color.Maroon;
+			this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label10.Location = new System.Drawing.Point(183, 23);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(81, 43);
+			this.label10.TabIndex = 7;
+			this.label10.Text = "TARIH";
+			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// MainForm
 			// 
@@ -223,31 +258,6 @@ namespace Hava_Durumu
 			this.panel2.ResumeLayout(false);
 			this.ResumeLayout(false);
 
-			this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(145, 40);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(49, 23);
-			this.label2.TabIndex = 4;
-			this.label2.Text = "il seç :";
-			// 
-			// MainForm
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(863, 468);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.cmbIlceler);
-			this.Controls.Add(this.cmbIller);
-			this.Controls.Add(this.panel1);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "MainForm";
-			this.Text = "Form1";
-			this.Load += new System.EventHandler(this.MainFormLoad);
-			this.panel1.ResumeLayout(false);
-			this.ResumeLayout(false);
-
-		}
 		}
 	}
-
+}
