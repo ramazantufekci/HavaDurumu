@@ -46,6 +46,7 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.Label label22;
 		private System.Windows.Forms.Label label21;
+		private System.Windows.Forms.Label label23;
 
 
 
@@ -99,6 +100,7 @@ namespace Hava_Durumu
 			this.label5 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
+			this.label23 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -173,6 +175,7 @@ namespace Hava_Durumu
 			// 
 			// panel2
 			// 
+			this.panel2.Controls.Add(this.label23);
 			this.panel2.Controls.Add(this.label22);
 			this.panel2.Controls.Add(this.label21);
 			this.panel2.Controls.Add(this.label17);
@@ -230,7 +233,7 @@ namespace Hava_Durumu
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(92, 20);
 			this.label17.TabIndex = 22;
-			this.label17.Text = "TARIH";
+			this.label17.Text = "En Yüksek";
 			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label18
@@ -240,7 +243,7 @@ namespace Hava_Durumu
 			this.label18.Name = "label18";
 			this.label18.Size = new System.Drawing.Size(92, 20);
 			this.label18.TabIndex = 21;
-			this.label18.Text = "TARIH";
+			this.label18.Text = "En Düşük";
 			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label19
@@ -442,6 +445,16 @@ namespace Hava_Durumu
 			this.label3.TabIndex = 0;
 			this.label3.Text = "TARIH";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label23
+			// 
+			this.label23.BackColor = System.Drawing.Color.White;
+			this.label23.Location = new System.Drawing.Point(745, 46);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(55, 20);
+			this.label23.TabIndex = 25;
+			this.label23.Text = "TARIH";
+			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// MainForm
 			// 
