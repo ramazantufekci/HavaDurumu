@@ -85,11 +85,11 @@ namespace Hava_Durumu
 		{
 			var MerkezId = ilceler[cmbIlceler.SelectedIndex];
 			List<Gunluk> gunluk = new GetirGotur().gunlukGetir(MerkezId.MerkezId);
-			/*pictureBox1.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun1+".svg");
+			pictureBox1.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun1+".svg");
 			pictureBox2.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun2+".svg");
 			pictureBox3.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun3+".svg");
 			pictureBox4.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun4+".svg");
-			pictureBox5.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun5+".svg");*/
+			pictureBox5.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun5+".svg");
 			
 	
 		}
