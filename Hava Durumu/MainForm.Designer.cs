@@ -17,7 +17,7 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.ComboBox cmbIller;
 		private System.Windows.Forms.ComboBox cmbIlceler;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button btnKapat;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -42,7 +42,7 @@ namespace Hava_Durumu
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.panel1 = new System.Windows.Forms.Panel();
-			this.button1 = new System.Windows.Forms.Button();
+			this.btnKapat = new System.Windows.Forms.Button();
 			this.cmbIller = new System.Windows.Forms.ComboBox();
 			this.cmbIlceler = new System.Windows.Forms.ComboBox();
 			this.panel1.SuspendLayout();
@@ -51,25 +51,25 @@ namespace Hava_Durumu
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-			this.panel1.Controls.Add(this.button1);
+			this.panel1.Controls.Add(this.btnKapat);
 			this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
 			this.panel1.Location = new System.Drawing.Point(0, 0);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(863, 31);
 			this.panel1.TabIndex = 0;
 			// 
-			// button1
+			// btnKapat
 			// 
-			this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-			this.button1.FlatAppearance.BorderSize = 0;
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Location = new System.Drawing.Point(830, 0);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(34, 32);
-			this.button1.TabIndex = 0;
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
+			this.btnKapat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnKapat.BackgroundImage")));
+			this.btnKapat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.btnKapat.FlatAppearance.BorderSize = 0;
+			this.btnKapat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnKapat.Location = new System.Drawing.Point(830, 0);
+			this.btnKapat.Name = "btnKapat";
+			this.btnKapat.Size = new System.Drawing.Size(34, 32);
+			this.btnKapat.TabIndex = 0;
+			this.btnKapat.UseVisualStyleBackColor = true;
+			this.btnKapat.Click += new System.EventHandler(this.bntKapatClick);
 			// 
 			// cmbIller
 			// 

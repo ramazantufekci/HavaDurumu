@@ -49,6 +49,7 @@ namespace Hava_Durumu
 		
 		#endregion
 		
+		#region Form load
 		void MainFormLoad(object sender, EventArgs e)
 		{
 			List<iller> iller = new GetirGotur().ilGetir();
@@ -56,11 +57,16 @@ namespace Hava_Durumu
 				cmbIller.Items.Add(il.Il);
 			}
 		}
-		void Button1Click(object sender, EventArgs e)
+		#endregion
+		
+		#region btnKapat
+		void btnKapatClick(object sender, EventArgs e)
 		{
 			this.Close();
 	
 		}
+		#endregion
+		
 		List<iller> ilceler = new List<iller>();
 		void CmbIllerSelectedIndexChanged(object sender, EventArgs e)
 		{
@@ -82,6 +88,10 @@ namespace Hava_Durumu
 			pictureBox4.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun4+".svg");
 			pictureBox5.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun5+".svg");*/
 			
+	
+		}
+		void bntKapatClick(object sender, EventArgs e)
+		{
 	
 		}
 		
