@@ -51,7 +51,7 @@ namespace Hava_Durumu
 			foreach (iller il in iller) {
 				cmbIller.Items.Add(il.Il);
 			}
-		}/*
+		}
 		void Button1Click(object sender, EventArgs e)
 		{
 			this.Close();
@@ -67,7 +67,7 @@ namespace Hava_Durumu
 			}
 			cmbIlceler.SelectedIndex = 0;
 		}
-		void CmbIlcelerSelectedIndexChanged(object sender, EventArgs e)
+		/*void CmbIlcelerSelectedIndexChanged(object sender, EventArgs e)
 		{
 			var MerkezId = ilceler[cmbIlceler.SelectedIndex];
 			List<Gunluk> gunluk = new GetirGotur().gunlukGetir(MerkezId.MerkezId);
