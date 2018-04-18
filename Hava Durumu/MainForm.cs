@@ -67,6 +67,7 @@ namespace Hava_Durumu
 		}
 		#endregion
 		
+		#region Il combobox il secildigi zaman isler
 		List<iller> ilceler = new List<iller>();
 		void CmbIllerSelectedIndexChanged(object sender, EventArgs e)
 		{
@@ -77,6 +78,7 @@ namespace Hava_Durumu
 			}
 			cmbIlceler.SelectedIndex = 0;
 		}
+		#endregion
 //		ilce secildigi zaman yapilacak islem
 		void CmbIlcelerSelectedIndexChanged(object sender, EventArgs e)
 		{
