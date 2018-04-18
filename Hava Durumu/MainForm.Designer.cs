@@ -29,9 +29,15 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Label label10;
-		//private System.Windows.Forms.Label label9;
-		//private System.Windows.Forms.Label label1;
-		//private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.PictureBox pictureBox3;
+		private System.Windows.Forms.PictureBox pictureBox2;
+		private System.Windows.Forms.Label label12;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.PictureBox pictureBox5;
+		private System.Windows.Forms.PictureBox pictureBox4;
+
+
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -50,7 +56,6 @@ namespace Hava_Durumu
 		/// <summary>
 		/// This method is required for Windows Forms designer support.
 		/// Do not change the method contents inside the source code editor. The Forms designer might
-		/// not be able to load this method if it was changed manually.
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
@@ -61,16 +66,28 @@ namespace Hava_Durumu
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.pictureBox3 = new System.Windows.Forms.PictureBox();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.label10 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
+			this.pictureBox4 = new System.Windows.Forms.PictureBox();
+			this.pictureBox5 = new System.Windows.Forms.PictureBox();
+			this.label11 = new System.Windows.Forms.Label();
+			this.label12 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -138,6 +155,13 @@ namespace Hava_Durumu
 			// 
 			// panel2
 			// 
+			this.panel2.Controls.Add(this.label12);
+			this.panel2.Controls.Add(this.label11);
+			this.panel2.Controls.Add(this.pictureBox5);
+			this.panel2.Controls.Add(this.pictureBox4);
+			this.panel2.Controls.Add(this.pictureBox3);
+			this.panel2.Controls.Add(this.pictureBox2);
+			this.panel2.Controls.Add(this.pictureBox1);
 			this.panel2.Controls.Add(this.label10);
 			this.panel2.Controls.Add(this.label9);
 			this.panel2.Controls.Add(this.label8);
@@ -150,6 +174,52 @@ namespace Hava_Durumu
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(703, 365);
 			this.panel2.TabIndex = 5;
+			// 
+			// pictureBox3
+			// 
+			this.pictureBox3.Location = new System.Drawing.Point(183, 190);
+			this.pictureBox3.Name = "pictureBox3";
+			this.pictureBox3.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox3.TabIndex = 10;
+			this.pictureBox3.TabStop = false;
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Location = new System.Drawing.Point(184, 130);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox2.TabIndex = 9;
+			this.pictureBox2.TabStop = false;
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Location = new System.Drawing.Point(184, 70);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox1.TabIndex = 8;
+			this.pictureBox1.TabStop = false;
+			// 
+			// label10
+			// 
+			this.label10.BackColor = System.Drawing.Color.Maroon;
+			this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label10.Location = new System.Drawing.Point(183, 23);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(81, 43);
+			this.label10.TabIndex = 7;
+			this.label10.Text = "TARIH";
+			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label9
+			// 
+			this.label9.BackColor = System.Drawing.Color.Maroon;
+			this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label9.Location = new System.Drawing.Point(183, 3);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(520, 20);
+			this.label9.TabIndex = 6;
+			this.label9.Text = "TARIH";
+			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label8
 			// 
@@ -217,27 +287,43 @@ namespace Hava_Durumu
 			this.label3.Text = "TARIH";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label9
+			// pictureBox4
 			// 
-			this.label9.BackColor = System.Drawing.Color.Maroon;
-			this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label9.Location = new System.Drawing.Point(183, 3);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(520, 20);
-			this.label9.TabIndex = 6;
-			this.label9.Text = "TARIH";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.pictureBox4.Location = new System.Drawing.Point(183, 250);
+			this.pictureBox4.Name = "pictureBox4";
+			this.pictureBox4.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox4.TabIndex = 11;
+			this.pictureBox4.TabStop = false;
 			// 
-			// label10
+			// pictureBox5
 			// 
-			this.label10.BackColor = System.Drawing.Color.Maroon;
-			this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label10.Location = new System.Drawing.Point(183, 23);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(81, 43);
-			this.label10.TabIndex = 7;
-			this.label10.Text = "TARIH";
-			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.pictureBox5.Location = new System.Drawing.Point(183, 310);
+			this.pictureBox5.Name = "pictureBox5";
+			this.pictureBox5.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox5.TabIndex = 12;
+			this.pictureBox5.TabStop = false;
+			// 
+			// label11
+			// 
+			this.label11.BackColor = System.Drawing.Color.Maroon;
+			this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label11.Location = new System.Drawing.Point(271, 70);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(91, 55);
+			this.label11.TabIndex = 13;
+			this.label11.Text = "TARIH";
+			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label12
+			// 
+			this.label12.BackColor = System.Drawing.Color.Maroon;
+			this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label12.Location = new System.Drawing.Point(368, 70);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(91, 55);
+			this.label12.TabIndex = 14;
+			this.label12.Text = "TARIH";
+			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// MainForm
 			// 
@@ -256,6 +342,24 @@ namespace Hava_Durumu
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.panel1.ResumeLayout(false);
 			this.panel2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+			this.ResumeLayout(false);
+
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Name = "MainForm";
+			this.Text = "Form1";
+			this.Load += new System.EventHandler(this.MainFormLoad);
+			this.panel1.ResumeLayout(false);
+			this.panel2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
 			this.ResumeLayout(false);
 
 		}
