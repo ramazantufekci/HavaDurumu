@@ -69,7 +69,7 @@ namespace Hava_Durumu
 			this.btnKapat.Size = new System.Drawing.Size(34, 32);
 			this.btnKapat.TabIndex = 0;
 			this.btnKapat.UseVisualStyleBackColor = true;
-			this.btnKapat.Click += new System.EventHandler(this.bntKapatClick);
+			this.btnKapat.Click += new System.EventHandler(this.btnKapatClick);
 			// 
 			// cmbIller
 			// 

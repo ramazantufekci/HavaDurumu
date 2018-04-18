@@ -79,7 +79,8 @@ namespace Hava_Durumu
 			cmbIlceler.SelectedIndex = 0;
 		}
 		#endregion
-//		ilce secildigi zaman yapilacak islem
+		
+		#region ilce secildigi zaman yapilacak islem
 		void CmbIlcelerSelectedIndexChanged(object sender, EventArgs e)
 		{
 			var MerkezId = ilceler[cmbIlceler.SelectedIndex];
@@ -92,10 +93,7 @@ namespace Hava_Durumu
 			
 	
 		}
-		void bntKapatClick(object sender, EventArgs e)
-		{
-	
-		}
+		#endregion
 		
 	}
 }
