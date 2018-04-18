@@ -90,6 +90,27 @@ namespace Hava_Durumu
 			pictureBox3.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun3+".svg");
 			pictureBox4.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun4+".svg");
 			pictureBox5.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun5+".svg");
+			lblDus1.Text = gunluk[0].EnDusukGun1.ToString();
+			lblDus2.Text = gunluk[0].EnDusukGun2.ToString();
+			lblDus3.Text = gunluk[0].EnDusukGun3.ToString();
+			lblDus4.Text = gunluk[0].EnDusukGun4.ToString();
+			lblDus5.Text = gunluk[0].EnDusukGun5.ToString();
+			lblYuk1.Text = gunluk[0].EnYuksekGun1.ToString();
+			lblYuk2.Text = gunluk[0].EnYuksekGun2.ToString();
+			lblYuk3.Text = gunluk[0].EnYuksekGun3.ToString();
+			lblYuk4.Text = gunluk[0].EnYuksekGun4.ToString();
+			lblYuk5.Text = gunluk[0].EnYuksekGun5.ToString();
+			lblNemDus1.Text = gunluk[0].EnDusukNemGun1.ToString();
+			lblNemDus2.Text = gunluk[0].EnDusukNemGun2.ToString();
+			lblNemDus3.Text = gunluk[0].EnDusukNemGun3.ToString();
+			lblNemDus4.Text = gunluk[0].EnDusukNemGun4.ToString();
+			lblNemDus5.Text = gunluk[0].EnDusukNemGun5.ToString();
+			lblNemYuk1.Text = gunluk[0].EnYuksekNemGun1.ToString();
+			lblNemYuk2.Text = gunluk[0].EnYuksekNemGun2.ToString();
+			lblNemYuk3.Text = gunluk[0].EnYuksekNemGun3.ToString();
+			lblNemYuk4.Text = gunluk[0].EnYuksekNemGun4.ToString();
+			lblNemYuk5.Text = gunluk[0].EnYuksekNemGun5.ToString();
+			
 			
 	
 		}

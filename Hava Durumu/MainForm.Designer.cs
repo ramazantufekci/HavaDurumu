@@ -32,14 +32,14 @@ namespace Hava_Durumu
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Windows.Forms.PictureBox pictureBox2;
-		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label lblYuk1;
+		private System.Windows.Forms.Label lblDus1;
 		private System.Windows.Forms.PictureBox pictureBox5;
 		private System.Windows.Forms.PictureBox pictureBox4;
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label18;
-		private System.Windows.Forms.Label label19;
-		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.Label lblNemYuk1;
+		private System.Windows.Forms.Label lblNemDus1;
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.Label label15;
 		private System.Windows.Forms.Label label14;
@@ -47,6 +47,22 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Label label22;
 		private System.Windows.Forms.Label label21;
 		private System.Windows.Forms.Label label23;
+		private System.Windows.Forms.Label lblNemYuk5;
+		private System.Windows.Forms.Label lblNemDus5;
+		private System.Windows.Forms.Label lblYuk5;
+		private System.Windows.Forms.Label lblNemYuk4;
+		private System.Windows.Forms.Label lblNemDus4;
+		private System.Windows.Forms.Label lblYuk4;
+		private System.Windows.Forms.Label lblNemYuk3;
+		private System.Windows.Forms.Label lblNemDus3;
+		private System.Windows.Forms.Label lblYuk3;
+		private System.Windows.Forms.Label lblNemYuk2;
+		private System.Windows.Forms.Label lblNemDus2;
+		private System.Windows.Forms.Label lblYuk2;
+		private System.Windows.Forms.Label lblDus2;
+		private System.Windows.Forms.Label lblDus5;
+		private System.Windows.Forms.Label lblDus4;
+		private System.Windows.Forms.Label lblDus3;
 
 
 
@@ -75,18 +91,35 @@ namespace Hava_Durumu
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.lblNemYuk5 = new System.Windows.Forms.Label();
+			this.lblNemDus5 = new System.Windows.Forms.Label();
+			this.lblYuk5 = new System.Windows.Forms.Label();
+			this.lblDus5 = new System.Windows.Forms.Label();
+			this.lblNemYuk4 = new System.Windows.Forms.Label();
+			this.lblNemDus4 = new System.Windows.Forms.Label();
+			this.lblYuk4 = new System.Windows.Forms.Label();
+			this.lblDus4 = new System.Windows.Forms.Label();
+			this.lblNemYuk3 = new System.Windows.Forms.Label();
+			this.lblNemDus3 = new System.Windows.Forms.Label();
+			this.lblYuk3 = new System.Windows.Forms.Label();
+			this.lblDus3 = new System.Windows.Forms.Label();
+			this.lblNemYuk2 = new System.Windows.Forms.Label();
+			this.lblNemDus2 = new System.Windows.Forms.Label();
+			this.lblYuk2 = new System.Windows.Forms.Label();
+			this.lblDus2 = new System.Windows.Forms.Label();
+			this.label23 = new System.Windows.Forms.Label();
 			this.label22 = new System.Windows.Forms.Label();
 			this.label21 = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
 			this.label18 = new System.Windows.Forms.Label();
-			this.label19 = new System.Windows.Forms.Label();
-			this.label20 = new System.Windows.Forms.Label();
+			this.lblNemYuk1 = new System.Windows.Forms.Label();
+			this.lblNemDus1 = new System.Windows.Forms.Label();
 			this.label16 = new System.Windows.Forms.Label();
 			this.label15 = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
+			this.lblYuk1 = new System.Windows.Forms.Label();
+			this.lblDus1 = new System.Windows.Forms.Label();
 			this.pictureBox5 = new System.Windows.Forms.PictureBox();
 			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -100,7 +133,6 @@ namespace Hava_Durumu
 			this.label5 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.label23 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -175,19 +207,35 @@ namespace Hava_Durumu
 			// 
 			// panel2
 			// 
+			this.panel2.Controls.Add(this.lblNemYuk5);
+			this.panel2.Controls.Add(this.lblNemDus5);
+			this.panel2.Controls.Add(this.lblYuk5);
+			this.panel2.Controls.Add(this.lblDus5);
+			this.panel2.Controls.Add(this.lblNemYuk4);
+			this.panel2.Controls.Add(this.lblNemDus4);
+			this.panel2.Controls.Add(this.lblYuk4);
+			this.panel2.Controls.Add(this.lblDus4);
+			this.panel2.Controls.Add(this.lblNemYuk3);
+			this.panel2.Controls.Add(this.lblNemDus3);
+			this.panel2.Controls.Add(this.lblYuk3);
+			this.panel2.Controls.Add(this.lblDus3);
+			this.panel2.Controls.Add(this.lblNemYuk2);
+			this.panel2.Controls.Add(this.lblNemDus2);
+			this.panel2.Controls.Add(this.lblYuk2);
+			this.panel2.Controls.Add(this.lblDus2);
 			this.panel2.Controls.Add(this.label23);
 			this.panel2.Controls.Add(this.label22);
 			this.panel2.Controls.Add(this.label21);
 			this.panel2.Controls.Add(this.label17);
 			this.panel2.Controls.Add(this.label18);
-			this.panel2.Controls.Add(this.label19);
-			this.panel2.Controls.Add(this.label20);
+			this.panel2.Controls.Add(this.lblNemYuk1);
+			this.panel2.Controls.Add(this.lblNemDus1);
 			this.panel2.Controls.Add(this.label16);
 			this.panel2.Controls.Add(this.label15);
 			this.panel2.Controls.Add(this.label14);
 			this.panel2.Controls.Add(this.label13);
-			this.panel2.Controls.Add(this.label12);
-			this.panel2.Controls.Add(this.label11);
+			this.panel2.Controls.Add(this.lblYuk1);
+			this.panel2.Controls.Add(this.lblDus1);
 			this.panel2.Controls.Add(this.pictureBox5);
 			this.panel2.Controls.Add(this.pictureBox4);
 			this.panel2.Controls.Add(this.pictureBox3);
@@ -203,8 +251,178 @@ namespace Hava_Durumu
 			this.panel2.Controls.Add(this.label3);
 			this.panel2.Location = new System.Drawing.Point(145, 91);
 			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(801, 365);
+			this.panel2.Size = new System.Drawing.Size(801, 375);
 			this.panel2.TabIndex = 5;
+			// 
+			// lblNemYuk5
+			// 
+			this.lblNemYuk5.BackColor = System.Drawing.Color.White;
+			this.lblNemYuk5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(118)))), ((int)(((byte)(178)))));
+			this.lblNemYuk5.Location = new System.Drawing.Point(562, 310);
+			this.lblNemYuk5.Name = "lblNemYuk5";
+			this.lblNemYuk5.Size = new System.Drawing.Size(91, 55);
+			this.lblNemYuk5.TabIndex = 41;
+			this.lblNemYuk5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblNemDus5
+			// 
+			this.lblNemDus5.BackColor = System.Drawing.Color.White;
+			this.lblNemDus5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(169)))), ((int)(((byte)(39)))));
+			this.lblNemDus5.Location = new System.Drawing.Point(465, 310);
+			this.lblNemDus5.Name = "lblNemDus5";
+			this.lblNemDus5.Size = new System.Drawing.Size(91, 55);
+			this.lblNemDus5.TabIndex = 40;
+			this.lblNemDus5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYuk5
+			// 
+			this.lblYuk5.BackColor = System.Drawing.Color.White;
+			this.lblYuk5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(75)))), ((int)(((byte)(103)))));
+			this.lblYuk5.Location = new System.Drawing.Point(367, 310);
+			this.lblYuk5.Name = "lblYuk5";
+			this.lblYuk5.Size = new System.Drawing.Size(91, 55);
+			this.lblYuk5.TabIndex = 39;
+			this.lblYuk5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblDus5
+			// 
+			this.lblDus5.BackColor = System.Drawing.Color.White;
+			this.lblDus5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(143)))), ((int)(((byte)(177)))));
+			this.lblDus5.Location = new System.Drawing.Point(270, 310);
+			this.lblDus5.Name = "lblDus5";
+			this.lblDus5.Size = new System.Drawing.Size(91, 55);
+			this.lblDus5.TabIndex = 38;
+			this.lblDus5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblNemYuk4
+			// 
+			this.lblNemYuk4.BackColor = System.Drawing.Color.White;
+			this.lblNemYuk4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(118)))), ((int)(((byte)(178)))));
+			this.lblNemYuk4.Location = new System.Drawing.Point(562, 250);
+			this.lblNemYuk4.Name = "lblNemYuk4";
+			this.lblNemYuk4.Size = new System.Drawing.Size(91, 55);
+			this.lblNemYuk4.TabIndex = 37;
+			this.lblNemYuk4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblNemDus4
+			// 
+			this.lblNemDus4.BackColor = System.Drawing.Color.White;
+			this.lblNemDus4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(169)))), ((int)(((byte)(39)))));
+			this.lblNemDus4.Location = new System.Drawing.Point(465, 250);
+			this.lblNemDus4.Name = "lblNemDus4";
+			this.lblNemDus4.Size = new System.Drawing.Size(91, 55);
+			this.lblNemDus4.TabIndex = 36;
+			this.lblNemDus4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYuk4
+			// 
+			this.lblYuk4.BackColor = System.Drawing.Color.White;
+			this.lblYuk4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(75)))), ((int)(((byte)(103)))));
+			this.lblYuk4.Location = new System.Drawing.Point(367, 250);
+			this.lblYuk4.Name = "lblYuk4";
+			this.lblYuk4.Size = new System.Drawing.Size(91, 55);
+			this.lblYuk4.TabIndex = 35;
+			this.lblYuk4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblDus4
+			// 
+			this.lblDus4.BackColor = System.Drawing.Color.White;
+			this.lblDus4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(143)))), ((int)(((byte)(177)))));
+			this.lblDus4.Location = new System.Drawing.Point(270, 250);
+			this.lblDus4.Name = "lblDus4";
+			this.lblDus4.Size = new System.Drawing.Size(91, 55);
+			this.lblDus4.TabIndex = 34;
+			this.lblDus4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblNemYuk3
+			// 
+			this.lblNemYuk3.BackColor = System.Drawing.Color.White;
+			this.lblNemYuk3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(118)))), ((int)(((byte)(178)))));
+			this.lblNemYuk3.Location = new System.Drawing.Point(562, 190);
+			this.lblNemYuk3.Name = "lblNemYuk3";
+			this.lblNemYuk3.Size = new System.Drawing.Size(91, 55);
+			this.lblNemYuk3.TabIndex = 33;
+			this.lblNemYuk3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblNemDus3
+			// 
+			this.lblNemDus3.BackColor = System.Drawing.Color.White;
+			this.lblNemDus3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(169)))), ((int)(((byte)(39)))));
+			this.lblNemDus3.Location = new System.Drawing.Point(465, 190);
+			this.lblNemDus3.Name = "lblNemDus3";
+			this.lblNemDus3.Size = new System.Drawing.Size(91, 55);
+			this.lblNemDus3.TabIndex = 32;
+			this.lblNemDus3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYuk3
+			// 
+			this.lblYuk3.BackColor = System.Drawing.Color.White;
+			this.lblYuk3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(75)))), ((int)(((byte)(103)))));
+			this.lblYuk3.Location = new System.Drawing.Point(367, 190);
+			this.lblYuk3.Name = "lblYuk3";
+			this.lblYuk3.Size = new System.Drawing.Size(91, 55);
+			this.lblYuk3.TabIndex = 31;
+			this.lblYuk3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblDus3
+			// 
+			this.lblDus3.BackColor = System.Drawing.Color.White;
+			this.lblDus3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(143)))), ((int)(((byte)(177)))));
+			this.lblDus3.Location = new System.Drawing.Point(270, 190);
+			this.lblDus3.Name = "lblDus3";
+			this.lblDus3.Size = new System.Drawing.Size(91, 55);
+			this.lblDus3.TabIndex = 30;
+			this.lblDus3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblNemYuk2
+			// 
+			this.lblNemYuk2.BackColor = System.Drawing.Color.White;
+			this.lblNemYuk2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(118)))), ((int)(((byte)(178)))));
+			this.lblNemYuk2.Location = new System.Drawing.Point(563, 130);
+			this.lblNemYuk2.Name = "lblNemYuk2";
+			this.lblNemYuk2.Size = new System.Drawing.Size(91, 55);
+			this.lblNemYuk2.TabIndex = 29;
+			this.lblNemYuk2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblNemDus2
+			// 
+			this.lblNemDus2.BackColor = System.Drawing.Color.White;
+			this.lblNemDus2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(169)))), ((int)(((byte)(39)))));
+			this.lblNemDus2.Location = new System.Drawing.Point(466, 130);
+			this.lblNemDus2.Name = "lblNemDus2";
+			this.lblNemDus2.Size = new System.Drawing.Size(91, 55);
+			this.lblNemDus2.TabIndex = 28;
+			this.lblNemDus2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYuk2
+			// 
+			this.lblYuk2.BackColor = System.Drawing.Color.White;
+			this.lblYuk2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(75)))), ((int)(((byte)(103)))));
+			this.lblYuk2.Location = new System.Drawing.Point(368, 130);
+			this.lblYuk2.Name = "lblYuk2";
+			this.lblYuk2.Size = new System.Drawing.Size(91, 55);
+			this.lblYuk2.TabIndex = 27;
+			this.lblYuk2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblDus2
+			// 
+			this.lblDus2.BackColor = System.Drawing.Color.White;
+			this.lblDus2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(143)))), ((int)(((byte)(177)))));
+			this.lblDus2.Location = new System.Drawing.Point(271, 130);
+			this.lblDus2.Name = "lblDus2";
+			this.lblDus2.Size = new System.Drawing.Size(91, 55);
+			this.lblDus2.TabIndex = 26;
+			this.lblDus2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label23
+			// 
+			this.label23.BackColor = System.Drawing.Color.White;
+			this.label23.Location = new System.Drawing.Point(745, 46);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(55, 20);
+			this.label23.TabIndex = 25;
+			this.label23.Text = "TARIH";
+			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label22
 			// 
@@ -229,6 +447,7 @@ namespace Hava_Durumu
 			// label17
 			// 
 			this.label17.BackColor = System.Drawing.Color.White;
+			this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(118)))), ((int)(((byte)(178)))));
 			this.label17.Location = new System.Drawing.Point(563, 46);
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(92, 20);
@@ -239,6 +458,7 @@ namespace Hava_Durumu
 			// label18
 			// 
 			this.label18.BackColor = System.Drawing.Color.White;
+			this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(169)))), ((int)(((byte)(39)))));
 			this.label18.Location = new System.Drawing.Point(465, 47);
 			this.label18.Name = "label18";
 			this.label18.Size = new System.Drawing.Size(92, 20);
@@ -246,25 +466,25 @@ namespace Hava_Durumu
 			this.label18.Text = "En Düşük";
 			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label19
+			// lblNemYuk1
 			// 
-			this.label19.BackColor = System.Drawing.Color.White;
-			this.label19.Location = new System.Drawing.Point(563, 70);
-			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(91, 55);
-			this.label19.TabIndex = 20;
-			this.label19.Text = "TARIH";
-			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblNemYuk1.BackColor = System.Drawing.Color.White;
+			this.lblNemYuk1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(118)))), ((int)(((byte)(178)))));
+			this.lblNemYuk1.Location = new System.Drawing.Point(563, 70);
+			this.lblNemYuk1.Name = "lblNemYuk1";
+			this.lblNemYuk1.Size = new System.Drawing.Size(91, 55);
+			this.lblNemYuk1.TabIndex = 20;
+			this.lblNemYuk1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label20
+			// lblNemDus1
 			// 
-			this.label20.BackColor = System.Drawing.Color.White;
-			this.label20.Location = new System.Drawing.Point(466, 70);
-			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(91, 55);
-			this.label20.TabIndex = 19;
-			this.label20.Text = "TARIH";
-			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblNemDus1.BackColor = System.Drawing.Color.White;
+			this.lblNemDus1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(169)))), ((int)(((byte)(39)))));
+			this.lblNemDus1.Location = new System.Drawing.Point(466, 70);
+			this.lblNemDus1.Name = "lblNemDus1";
+			this.lblNemDus1.Size = new System.Drawing.Size(91, 55);
+			this.lblNemDus1.TabIndex = 19;
+			this.lblNemDus1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label16
 			// 
@@ -279,6 +499,7 @@ namespace Hava_Durumu
 			// label15
 			// 
 			this.label15.BackColor = System.Drawing.Color.White;
+			this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(75)))), ((int)(((byte)(103)))));
 			this.label15.Location = new System.Drawing.Point(368, 46);
 			this.label15.Name = "label15";
 			this.label15.Size = new System.Drawing.Size(92, 20);
@@ -289,6 +510,7 @@ namespace Hava_Durumu
 			// label14
 			// 
 			this.label14.BackColor = System.Drawing.Color.White;
+			this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(143)))), ((int)(((byte)(177)))));
 			this.label14.Location = new System.Drawing.Point(270, 47);
 			this.label14.Name = "label14";
 			this.label14.Size = new System.Drawing.Size(92, 20);
@@ -306,25 +528,25 @@ namespace Hava_Durumu
 			this.label13.Text = "Sıcaklık (°C)";
 			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label12
+			// lblYuk1
 			// 
-			this.label12.BackColor = System.Drawing.Color.White;
-			this.label12.Location = new System.Drawing.Point(368, 70);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(91, 55);
-			this.label12.TabIndex = 14;
-			this.label12.Text = "TARIH";
-			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblYuk1.BackColor = System.Drawing.Color.White;
+			this.lblYuk1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(75)))), ((int)(((byte)(103)))));
+			this.lblYuk1.Location = new System.Drawing.Point(368, 70);
+			this.lblYuk1.Name = "lblYuk1";
+			this.lblYuk1.Size = new System.Drawing.Size(91, 55);
+			this.lblYuk1.TabIndex = 14;
+			this.lblYuk1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label11
+			// lblDus1
 			// 
-			this.label11.BackColor = System.Drawing.Color.White;
-			this.label11.Location = new System.Drawing.Point(271, 70);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(91, 55);
-			this.label11.TabIndex = 13;
-			this.label11.Text = "TARIH";
-			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblDus1.BackColor = System.Drawing.Color.White;
+			this.lblDus1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(143)))), ((int)(((byte)(177)))));
+			this.lblDus1.Location = new System.Drawing.Point(271, 70);
+			this.lblDus1.Name = "lblDus1";
+			this.lblDus1.Size = new System.Drawing.Size(91, 55);
+			this.lblDus1.TabIndex = 13;
+			this.lblDus1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// pictureBox5
 			// 
@@ -360,6 +582,7 @@ namespace Hava_Durumu
 			// 
 			// pictureBox1
 			// 
+			this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.pictureBox1.Location = new System.Drawing.Point(184, 70);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(81, 55);
@@ -445,16 +668,6 @@ namespace Hava_Durumu
 			this.label3.TabIndex = 0;
 			this.label3.Text = "TARIH";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label23
-			// 
-			this.label23.BackColor = System.Drawing.Color.White;
-			this.label23.Location = new System.Drawing.Point(745, 46);
-			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(55, 20);
-			this.label23.TabIndex = 25;
-			this.label23.Text = "TARIH";
-			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// MainForm
 			// 
