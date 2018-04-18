@@ -270,7 +270,7 @@ namespace Hava_Durumu
 			this.label16.Name = "label16";
 			this.label16.Size = new System.Drawing.Size(188, 20);
 			this.label16.TabIndex = 18;
-			this.label16.Text = "TARIH";
+			this.label16.Text = "Nem (%)";
 			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label15
@@ -280,7 +280,7 @@ namespace Hava_Durumu
 			this.label15.Name = "label15";
 			this.label15.Size = new System.Drawing.Size(92, 20);
 			this.label15.TabIndex = 17;
-			this.label15.Text = "Nem (%)";
+			this.label15.Text = "En Yüksek";
 			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label14
@@ -290,7 +290,7 @@ namespace Hava_Durumu
 			this.label14.Name = "label14";
 			this.label14.Size = new System.Drawing.Size(92, 20);
 			this.label14.TabIndex = 16;
-			this.label14.Text = "Sıcaklık (°C)";
+			this.label14.Text = "En Düşük";
 			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label13
@@ -300,7 +300,7 @@ namespace Hava_Durumu
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(188, 20);
 			this.label13.TabIndex = 15;
-			this.label13.Text = "TARIH";
+			this.label13.Text = "Sıcaklık (°C)";
 			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label12
