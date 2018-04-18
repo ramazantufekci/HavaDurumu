@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{F214CE8A-6994-49BB-B9E8-A51D94002F10}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hava_Durumu</RootNamespace>
+    <AssemblyName>Hava Durumu</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg">
+      <HintPath>..\packages\Svg.2.3.0\lib\net35\Svg.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GetirGotur.cs" />
+    <Compile Include="Gunluk.cs" />
+    <Compile Include="iller.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resimler\Hadiseler\A.svg" />
+    <None Include="Resimler\Hadiseler\AB.svg" />
+    <None Include="Resimler\Hadiseler\CB.svg" />
+    <None Include="Resimler\Hadiseler\deneme.php" />
+    <None Include="Resimler\Hadiseler\DNM.svg" />
+    <None Include="Resimler\Hadiseler\DY.svg" />
+    <None Include="Resimler\Hadiseler\GKR.svg" />
+    <None Include="Resimler\Hadiseler\GSY.svg" />
+    <None Include="Resimler\Hadiseler\HHY.svg" />
+    <None Include="Resimler\Hadiseler\HKY.svg" />
+    <None Include="Resimler\Hadiseler\HSY.svg" />
+    <None Include="Resimler\Hadiseler\HY.svg" />
+    <None Include="Resimler\Hadiseler\K.svg" />
+    <None Include="Resimler\Hadiseler\KF.svg" />
+    <None Include="Resimler\Hadiseler\KGSY.svg" />
+    <None Include="Resimler\Hadiseler\KKR.svg" />
+    <None Include="Resimler\Hadiseler\KKY.svg" />
+    <None Include="Resimler\Hadiseler\KSY.svg" />
+    <None Include="Resimler\Hadiseler\KY.svg" />
+    <None Include="Resimler\Hadiseler\KYK.svg" />
+    <None Include="Resimler\Hadiseler\MSY.svg" />
+    <None Include="Resimler\Hadiseler\PB.svg" />
+    <None Include="Resimler\Hadiseler\PUS.svg" />
+    <None Include="Resimler\Hadiseler\R.svg" />
+    <None Include="Resimler\Hadiseler\SCK.svg" />
+    <None Include="Resimler\Hadiseler\SGK.svg" />
+    <None Include="Resimler\Hadiseler\SIS.svg" />
+    <None Include="Resimler\Hadiseler\SY.svg" />
+    <None Include="Resimler\Hadiseler\Y.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resimler" />
+    <Folder Include="Resimler\Hadiseler" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

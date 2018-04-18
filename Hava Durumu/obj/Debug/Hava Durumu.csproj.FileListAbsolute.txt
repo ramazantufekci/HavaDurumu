@@ -1,0 +1,12 @@
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\bin\Debug\Hava Durumu.exe
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\bin\Debug\Hava Durumu.pdb
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\obj\Debug\Hava Durumu.csprojResolveAssemblyReference.cache
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\obj\Debug\Hava_Durumu.MainForm.resources
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\obj\Debug\Hava Durumu.csproj.GenerateResource.Cache
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\obj\Debug\Hava Durumu.exe
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\obj\Debug\Hava Durumu.pdb
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\bin\Debug\Svg.dll
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\bin\Debug\Svg.pdb
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\bin\Debug\Svg.xml
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ramazan\Documents\SharpDevelop Projects\Hava Durumu\Hava Durumu\bin\Debug\Newtonsoft.Json.xml
