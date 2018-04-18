@@ -36,6 +36,7 @@ namespace Hava_Durumu
 			//
 		}
 		
+		#region Svg Render
 		public static Bitmap GetBitmapFromSVG(string filePath)
         {
 				SvgDocument de = SvgDocument.Open(filePath);
@@ -45,6 +46,9 @@ namespace Hava_Durumu
 	            return bmp;
             
         }
+		
+		#endregion
+		
 		void MainFormLoad(object sender, EventArgs e)
 		{
 			List<iller> iller = new GetirGotur().ilGetir();
@@ -67,18 +71,19 @@ namespace Hava_Durumu
 			}
 			cmbIlceler.SelectedIndex = 0;
 		}
-		/*void CmbIlcelerSelectedIndexChanged(object sender, EventArgs e)
+//		ilce secildigi zaman yapilacak islem
+		void CmbIlcelerSelectedIndexChanged(object sender, EventArgs e)
 		{
 			var MerkezId = ilceler[cmbIlceler.SelectedIndex];
 			List<Gunluk> gunluk = new GetirGotur().gunlukGetir(MerkezId.MerkezId);
-			pictureBox1.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun1+".svg");
+			/*pictureBox1.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun1+".svg");
 			pictureBox2.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun2+".svg");
 			pictureBox3.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun3+".svg");
 			pictureBox4.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun4+".svg");
-			pictureBox5.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun5+".svg");
+			pictureBox5.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun5+".svg");*/
 			
 	
-		}*/
+		}
 		
 	}
 }

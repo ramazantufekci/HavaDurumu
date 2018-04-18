@@ -91,6 +91,7 @@ namespace Hava_Durumu
 			this.cmbIlceler.Name = "cmbIlceler";
 			this.cmbIlceler.Size = new System.Drawing.Size(290, 25);
 			this.cmbIlceler.TabIndex = 2;
+			this.cmbIlceler.SelectedIndexChanged += new System.EventHandler(this.CmbIlcelerSelectedIndexChanged);
 			// 
 			// MainForm
 			// 
