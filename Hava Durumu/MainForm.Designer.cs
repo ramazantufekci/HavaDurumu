@@ -18,6 +18,17 @@ namespace Hava_Durumu
 		private System.Windows.Forms.ComboBox cmbIller;
 		private System.Windows.Forms.ComboBox cmbIlceler;
 		private System.Windows.Forms.Button btnKapat;
+		private System.Windows.Forms.Panel panel2;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label label2;
+		//private System.Windows.Forms.Label label1;
+		//private System.Windows.Forms.Label label2;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -37,7 +48,6 @@ namespace Hava_Durumu
 		/// This method is required for Windows Forms designer support.
 		/// Do not change the method contents inside the source code editor. The Forms designer might
 		/// not be able to load this method if it was changed manually.
-		/// </summary>
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
@@ -45,7 +55,17 @@ namespace Hava_Durumu
 			this.btnKapat = new System.Windows.Forms.Button();
 			this.cmbIller = new System.Windows.Forms.ComboBox();
 			this.cmbIlceler = new System.Windows.Forms.ComboBox();
+			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.panel2 = new System.Windows.Forms.Panel();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
+			this.panel2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -76,7 +96,7 @@ namespace Hava_Durumu
 			this.cmbIller.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.cmbIller.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.cmbIller.FormattingEnabled = true;
-			this.cmbIller.Location = new System.Drawing.Point(13, 38);
+			this.cmbIller.Location = new System.Drawing.Point(196, 38);
 			this.cmbIller.Name = "cmbIller";
 			this.cmbIller.Size = new System.Drawing.Size(290, 25);
 			this.cmbIller.TabIndex = 1;
@@ -87,17 +107,136 @@ namespace Hava_Durumu
 			this.cmbIlceler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.cmbIlceler.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.cmbIlceler.FormattingEnabled = true;
-			this.cmbIlceler.Location = new System.Drawing.Point(507, 38);
+			this.cmbIlceler.Location = new System.Drawing.Point(558, 38);
 			this.cmbIlceler.Name = "cmbIlceler";
 			this.cmbIlceler.Size = new System.Drawing.Size(290, 25);
 			this.cmbIlceler.TabIndex = 2;
 			this.cmbIlceler.SelectedIndexChanged += new System.EventHandler(this.CmbIlcelerSelectedIndexChanged);
+			// 
+			// label1
+			// 
+			this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(489, 38);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(63, 23);
+			this.label1.TabIndex = 3;
+			this.label1.Text = "ilçe seç :";
+			// 
+			// label2
+			// 
+			this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(145, 38);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(49, 23);
+			this.label2.TabIndex = 4;
+			this.label2.Text = "il seç :";
+			// 
+			// panel2
+			// 
+			this.panel2.Controls.Add(this.label8);
+			this.panel2.Controls.Add(this.label7);
+			this.panel2.Controls.Add(this.label6);
+			this.panel2.Controls.Add(this.label5);
+			this.panel2.Controls.Add(this.label4);
+			this.panel2.Controls.Add(this.label3);
+			this.panel2.Location = new System.Drawing.Point(145, 91);
+			this.panel2.Name = "panel2";
+			this.panel2.Size = new System.Drawing.Size(703, 365);
+			this.panel2.TabIndex = 5;
+			// 
+			// label3
+			// 
+			this.label3.BackColor = System.Drawing.Color.Maroon;
+			this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label3.Location = new System.Drawing.Point(3, 3);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(100, 63);
+			this.label3.TabIndex = 0;
+			this.label3.Text = "label3";
+			// 
+			// label4
+			// 
+			this.label4.BackColor = System.Drawing.Color.Maroon;
+			this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label4.Location = new System.Drawing.Point(3, 70);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(100, 55);
+			this.label4.TabIndex = 1;
+			this.label4.Text = "label4";
+			// 
+			// label5
+			// 
+			this.label5.BackColor = System.Drawing.Color.Maroon;
+			this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label5.Location = new System.Drawing.Point(3, 130);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(100, 55);
+			this.label5.TabIndex = 2;
+			this.label5.Text = "label5";
+			// 
+			// label6
+			// 
+			this.label6.BackColor = System.Drawing.Color.Maroon;
+			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label6.Location = new System.Drawing.Point(3, 190);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(100, 55);
+			this.label6.TabIndex = 3;
+			this.label6.Text = "label6";
+			// 
+			// label7
+			// 
+			this.label7.BackColor = System.Drawing.Color.Maroon;
+			this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label7.Location = new System.Drawing.Point(3, 250);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(100, 55);
+			this.label7.TabIndex = 4;
+			this.label7.Text = "label7";
+			// 
+			// label8
+			// 
+			this.label8.BackColor = System.Drawing.Color.Maroon;
+			this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label8.Location = new System.Drawing.Point(3, 310);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(100, 55);
+			this.label8.TabIndex = 5;
+			this.label8.Text = "label8";
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(863, 468);
+			this.Controls.Add(this.panel2);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.label1);
+			this.Controls.Add(this.cmbIlceler);
+			this.Controls.Add(this.cmbIller);
+			this.Controls.Add(this.panel1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Name = "MainForm";
+			this.Text = "Form1";
+			this.Load += new System.EventHandler(this.MainFormLoad);
+			this.panel1.ResumeLayout(false);
+			this.panel2.ResumeLayout(false);
+			this.ResumeLayout(false);
+
+			this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(145, 40);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(49, 23);
+			this.label2.TabIndex = 4;
+			this.label2.Text = "il seç :";
+			// 
+			// MainForm
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(863, 468);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.label1);
 			this.Controls.Add(this.cmbIlceler);
 			this.Controls.Add(this.cmbIller);
 			this.Controls.Add(this.panel1);
