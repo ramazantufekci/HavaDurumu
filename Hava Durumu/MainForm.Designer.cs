@@ -32,20 +32,20 @@ namespace Hava_Durumu
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Windows.Forms.PictureBox pictureBox2;
-		private System.Windows.Forms.Label lblYuk1;
-		private System.Windows.Forms.Label lblDus1;
 		private System.Windows.Forms.PictureBox pictureBox5;
 		private System.Windows.Forms.PictureBox pictureBox4;
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label18;
-		private System.Windows.Forms.Label lblNemYuk1;
-		private System.Windows.Forms.Label lblNemDus1;
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.Label label15;
 		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.Label label22;
 		private System.Windows.Forms.Label label21;
+		private System.Windows.Forms.Label lblYuk1;
+		private System.Windows.Forms.Label lblDus1;
+		private System.Windows.Forms.Label lblNemYuk1;
+		private System.Windows.Forms.Label lblNemDus1;
 		private System.Windows.Forms.Label label23;
 		private System.Windows.Forms.Label lblNemYuk5;
 		private System.Windows.Forms.Label lblNemDus5;
@@ -64,9 +64,6 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Label lblDus4;
 		private System.Windows.Forms.Label lblDus3;
 
-
-
-		
 		/// <summary>
 		/// Disposes resources used by the form.
 		/// </summary>
@@ -80,6 +77,14 @@ namespace Hava_Durumu
 			}
 			base.Dispose(disposing);
 		}
+		
+		/// <summary>
+		/// This method is required for Windows Forms designer support.
+		/// Do not change the method contents inside the source code editor. The Forms designer might
+		/// not be able to load this method if it was changed manually.
+		/// </summary>
+		
+		
 		
 		private void InitializeComponent()
 		{
@@ -550,6 +555,7 @@ namespace Hava_Durumu
 			// 
 			// pictureBox5
 			// 
+			this.pictureBox5.BackColor = System.Drawing.Color.White;
 			this.pictureBox5.Location = new System.Drawing.Point(183, 310);
 			this.pictureBox5.Name = "pictureBox5";
 			this.pictureBox5.Size = new System.Drawing.Size(81, 55);
@@ -558,6 +564,7 @@ namespace Hava_Durumu
 			// 
 			// pictureBox4
 			// 
+			this.pictureBox4.BackColor = System.Drawing.Color.White;
 			this.pictureBox4.Location = new System.Drawing.Point(183, 250);
 			this.pictureBox4.Name = "pictureBox4";
 			this.pictureBox4.Size = new System.Drawing.Size(81, 55);
@@ -566,6 +573,7 @@ namespace Hava_Durumu
 			// 
 			// pictureBox3
 			// 
+			this.pictureBox3.BackColor = System.Drawing.Color.White;
 			this.pictureBox3.Location = new System.Drawing.Point(183, 190);
 			this.pictureBox3.Name = "pictureBox3";
 			this.pictureBox3.Size = new System.Drawing.Size(81, 55);
@@ -574,6 +582,7 @@ namespace Hava_Durumu
 			// 
 			// pictureBox2
 			// 
+			this.pictureBox2.BackColor = System.Drawing.Color.White;
 			this.pictureBox2.Location = new System.Drawing.Point(184, 130);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(81, 55);
@@ -582,9 +591,11 @@ namespace Hava_Durumu
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.pictureBox1.BackColor = System.Drawing.Color.White;
+			this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.pictureBox1.Location = new System.Drawing.Point(184, 70);
 			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
 			this.pictureBox1.Size = new System.Drawing.Size(81, 55);
 			this.pictureBox1.TabIndex = 8;
 			this.pictureBox1.TabStop = false;
@@ -694,5 +705,5 @@ namespace Hava_Durumu
 			this.ResumeLayout(false);
 
 		}
-}
+		}
 }
