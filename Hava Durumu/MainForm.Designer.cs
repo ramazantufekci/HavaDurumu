@@ -63,6 +63,16 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Label lblDus5;
 		private System.Windows.Forms.Label lblDus4;
 		private System.Windows.Forms.Label lblDus3;
+		private System.Windows.Forms.Label lblYon1;
+		private System.Windows.Forms.Label lblYon2;
+		private System.Windows.Forms.Label lblYon5;
+		private System.Windows.Forms.Label lblYon4;
+		private System.Windows.Forms.Label lblYon3;
+		private System.Windows.Forms.Label lblHiz5;
+		private System.Windows.Forms.Label lblHiz4;
+		private System.Windows.Forms.Label lblHiz3;
+		private System.Windows.Forms.Label lblHiz2;
+		private System.Windows.Forms.Label lblHiz1;
 
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -85,7 +95,6 @@ namespace Hava_Durumu
 		/// </summary>
 		
 		
-		
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
@@ -96,6 +105,16 @@ namespace Hava_Durumu
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.lblHiz5 = new System.Windows.Forms.Label();
+			this.lblHiz4 = new System.Windows.Forms.Label();
+			this.lblHiz3 = new System.Windows.Forms.Label();
+			this.lblHiz2 = new System.Windows.Forms.Label();
+			this.lblHiz1 = new System.Windows.Forms.Label();
+			this.lblYon5 = new System.Windows.Forms.Label();
+			this.lblYon4 = new System.Windows.Forms.Label();
+			this.lblYon3 = new System.Windows.Forms.Label();
+			this.lblYon2 = new System.Windows.Forms.Label();
+			this.lblYon1 = new System.Windows.Forms.Label();
 			this.lblNemYuk5 = new System.Windows.Forms.Label();
 			this.lblNemDus5 = new System.Windows.Forms.Label();
 			this.lblYuk5 = new System.Windows.Forms.Label();
@@ -212,6 +231,16 @@ namespace Hava_Durumu
 			// 
 			// panel2
 			// 
+			this.panel2.Controls.Add(this.lblHiz5);
+			this.panel2.Controls.Add(this.lblHiz4);
+			this.panel2.Controls.Add(this.lblHiz3);
+			this.panel2.Controls.Add(this.lblHiz2);
+			this.panel2.Controls.Add(this.lblHiz1);
+			this.panel2.Controls.Add(this.lblYon5);
+			this.panel2.Controls.Add(this.lblYon4);
+			this.panel2.Controls.Add(this.lblYon3);
+			this.panel2.Controls.Add(this.lblYon2);
+			this.panel2.Controls.Add(this.lblYon1);
 			this.panel2.Controls.Add(this.lblNemYuk5);
 			this.panel2.Controls.Add(this.lblNemDus5);
 			this.panel2.Controls.Add(this.lblYuk5);
@@ -258,6 +287,96 @@ namespace Hava_Durumu
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(801, 375);
 			this.panel2.TabIndex = 5;
+			// 
+			// lblHiz5
+			// 
+			this.lblHiz5.BackColor = System.Drawing.Color.White;
+			this.lblHiz5.Location = new System.Drawing.Point(745, 310);
+			this.lblHiz5.Name = "lblHiz5";
+			this.lblHiz5.Size = new System.Drawing.Size(55, 55);
+			this.lblHiz5.TabIndex = 51;
+			this.lblHiz5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblHiz4
+			// 
+			this.lblHiz4.BackColor = System.Drawing.Color.White;
+			this.lblHiz4.Location = new System.Drawing.Point(745, 250);
+			this.lblHiz4.Name = "lblHiz4";
+			this.lblHiz4.Size = new System.Drawing.Size(55, 55);
+			this.lblHiz4.TabIndex = 50;
+			this.lblHiz4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblHiz3
+			// 
+			this.lblHiz3.BackColor = System.Drawing.Color.White;
+			this.lblHiz3.Location = new System.Drawing.Point(745, 190);
+			this.lblHiz3.Name = "lblHiz3";
+			this.lblHiz3.Size = new System.Drawing.Size(55, 55);
+			this.lblHiz3.TabIndex = 49;
+			this.lblHiz3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblHiz2
+			// 
+			this.lblHiz2.BackColor = System.Drawing.Color.White;
+			this.lblHiz2.Location = new System.Drawing.Point(745, 130);
+			this.lblHiz2.Name = "lblHiz2";
+			this.lblHiz2.Size = new System.Drawing.Size(55, 55);
+			this.lblHiz2.TabIndex = 48;
+			this.lblHiz2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblHiz1
+			// 
+			this.lblHiz1.BackColor = System.Drawing.Color.White;
+			this.lblHiz1.Location = new System.Drawing.Point(745, 70);
+			this.lblHiz1.Name = "lblHiz1";
+			this.lblHiz1.Size = new System.Drawing.Size(55, 55);
+			this.lblHiz1.TabIndex = 47;
+			this.lblHiz1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYon5
+			// 
+			this.lblYon5.BackColor = System.Drawing.Color.White;
+			this.lblYon5.Location = new System.Drawing.Point(659, 310);
+			this.lblYon5.Name = "lblYon5";
+			this.lblYon5.Size = new System.Drawing.Size(83, 55);
+			this.lblYon5.TabIndex = 46;
+			this.lblYon5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYon4
+			// 
+			this.lblYon4.BackColor = System.Drawing.Color.White;
+			this.lblYon4.Location = new System.Drawing.Point(659, 250);
+			this.lblYon4.Name = "lblYon4";
+			this.lblYon4.Size = new System.Drawing.Size(83, 55);
+			this.lblYon4.TabIndex = 45;
+			this.lblYon4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYon3
+			// 
+			this.lblYon3.BackColor = System.Drawing.Color.White;
+			this.lblYon3.Location = new System.Drawing.Point(659, 190);
+			this.lblYon3.Name = "lblYon3";
+			this.lblYon3.Size = new System.Drawing.Size(83, 55);
+			this.lblYon3.TabIndex = 44;
+			this.lblYon3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYon2
+			// 
+			this.lblYon2.BackColor = System.Drawing.Color.White;
+			this.lblYon2.Location = new System.Drawing.Point(659, 130);
+			this.lblYon2.Name = "lblYon2";
+			this.lblYon2.Size = new System.Drawing.Size(83, 55);
+			this.lblYon2.TabIndex = 43;
+			this.lblYon2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblYon1
+			// 
+			this.lblYon1.BackColor = System.Drawing.Color.White;
+			this.lblYon1.Location = new System.Drawing.Point(659, 70);
+			this.lblYon1.Name = "lblYon1";
+			this.lblYon1.Size = new System.Drawing.Size(83, 55);
+			this.lblYon1.TabIndex = 42;
+			this.lblYon1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lblNemYuk5
 			// 
@@ -426,7 +545,7 @@ namespace Hava_Durumu
 			this.label23.Name = "label23";
 			this.label23.Size = new System.Drawing.Size(55, 20);
 			this.label23.TabIndex = 25;
-			this.label23.Text = "TARIH";
+			this.label23.Text = "Hız";
 			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label22
@@ -436,7 +555,7 @@ namespace Hava_Durumu
 			this.label22.Name = "label22";
 			this.label22.Size = new System.Drawing.Size(83, 20);
 			this.label22.TabIndex = 24;
-			this.label22.Text = "TARIH";
+			this.label22.Text = "Yön";
 			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label21
@@ -595,7 +714,6 @@ namespace Hava_Durumu
 			this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.pictureBox1.Location = new System.Drawing.Point(184, 70);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
 			this.pictureBox1.Size = new System.Drawing.Size(81, 55);
 			this.pictureBox1.TabIndex = 8;
 			this.pictureBox1.TabStop = false;

@@ -29,9 +29,9 @@ function Getir($url,$post=false,$message=null)
 	//var_export($response);
 }
 $derya = array("A","AB","PB","CB","HY","Y","KY","KKY","HKY","K","KYK","HSY","SY","KSY","MSY","DY","GSY","KGSY","SIS","PUS","DNM","KF","R","GKR","KKR","SCK","SGK","HHY");
-foreach($derya as $ramazan)
-{
-	file_put_contents($ramazan.".svg",Getir("https://www.mgm.gov.tr/Images_Sys/hadiseler/".$ramazan.".svg"));
-	sleep(5);
-}
+//foreach($derya as $ramazan)
+//{
+	file_put_contents("KGY.svg",Getir("https://www.mgm.gov.tr/Images_Sys/hadiseler/KGY.svg"));
+	//sleep(5);
+//}
  

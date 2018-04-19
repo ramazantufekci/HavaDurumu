@@ -110,7 +110,11 @@ namespace Hava_Durumu
 			lblNemYuk3.Text = gunluk[0].EnYuksekNemGun3.ToString();
 			lblNemYuk4.Text = gunluk[0].EnYuksekNemGun4.ToString();
 			lblNemYuk5.Text = gunluk[0].EnYuksekNemGun5.ToString();
-			
+			lblHiz1.Text = gunluk[0].RuzgarHizGun1.ToString();
+			lblHiz2.Text = gunluk[0].RuzgarHizGun2.ToString();
+			lblHiz3.Text = gunluk[0].RuzgarHizGun3.ToString();
+			lblHiz4.Text = gunluk[0].RuzgarHizGun4.ToString();
+			lblHiz5.Text = gunluk[0].RuzgarHizGun5.ToString();
 			
 	
 		}
