@@ -76,6 +76,7 @@ namespace Hava_Durumu
 			foreach (iller ilce in ilceler) {
 				cmbIlceler.Items.Add(ilce.Ilce);
 			}
+			//MessageBox.Show(cmbIlceler.Items.Count.ToString());
 			cmbIlceler.SelectedIndex = 0;
 		}
 		#endregion
@@ -83,8 +84,8 @@ namespace Hava_Durumu
 		#region ilce secildigi zaman yapilacak islem
 		void CmbIlcelerSelectedIndexChanged(object sender, EventArgs e)
 		{
-			var MerkezId = ilceler[cmbIlceler.SelectedIndex];
-			List<Gunluk> gunluk = new GetirGotur().gunlukGetir(MerkezId.MerkezId);
+			var MerkezId = ilceler[cmbIlceler.SelectedIndex].GunlukTahminIstNo;
+			List<Gunluk> gunluk = new GetirGotur().gunlukGetir(MerkezId);
 			pictureBox1.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun1+".svg");
 			pictureBox2.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun2+".svg");
 			pictureBox3.Image = GetBitmapFromSVG(svgYol+gunluk[0].HadiseGun3+".svg");
@@ -115,10 +116,50 @@ namespace Hava_Durumu
 			lblHiz3.Text = gunluk[0].RuzgarHizGun3.ToString();
 			lblHiz4.Text = gunluk[0].RuzgarHizGun4.ToString();
 			lblHiz5.Text = gunluk[0].RuzgarHizGun5.ToString();
+			Image image = GetBitmapFromSVG(svgYol+"ryon-gri.svg");
+			pictureBox10.Image = RotateImage(image,gunluk[0].RuzgarYonGun1);
+			pictureBox9.Image = RotateImage(image,gunluk[0].RuzgarYonGun2);
+			pictureBox8.Image = RotateImage(image,gunluk[0].RuzgarYonGun3);
+			pictureBox7.Image = RotateImage(image,gunluk[0].RuzgarYonGun4);
+			pictureBox6.Image = RotateImage(image,gunluk[0].RuzgarYonGun5);
+			
 			
 	
 		}
 		#endregion
+		
+		#region Resim cevirme
+		public static Bitmap RotateImage(Image image, PointF offset, float angle)
+		{
+		    if (image == null)
+		        throw new ArgumentNullException("image");
+		        
+		    //create a new empty bitmap to hold rotated image
+		    Bitmap rotatedBmp = new Bitmap(image.Width, image.Height);
+		    rotatedBmp.SetResolution(image.HorizontalResolution, image.VerticalResolution);
+		    
+		    //make a graphics object from the empty bitmap
+		    Graphics g = Graphics.FromImage(rotatedBmp);
+		    
+		    //Put the rotation point in the center of the image
+		    g.TranslateTransform(offset.X, offset.Y);
+		    
+		    //rotate the image
+		    g.RotateTransform(angle);
+		    
+		    //move the image back
+		    g.TranslateTransform(-offset.X, -offset.Y);
+		    
+		    //draw passed in image onto graphics object
+		    g.DrawImage(image, new PointF(0, 0));
+		    
+		    return rotatedBmp;
+		}
+		#endregion
+       public static Bitmap RotateImage(Image image, float angle)
+		{
+       		return RotateImage(image, new PointF((float)image.Width / 2, (float)image.Height / 2), angle);
+        }
 		
 	}
 }

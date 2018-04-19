@@ -63,16 +63,17 @@ namespace Hava_Durumu
 		private System.Windows.Forms.Label lblDus5;
 		private System.Windows.Forms.Label lblDus4;
 		private System.Windows.Forms.Label lblDus3;
-		private System.Windows.Forms.Label lblYon1;
-		private System.Windows.Forms.Label lblYon2;
-		private System.Windows.Forms.Label lblYon5;
-		private System.Windows.Forms.Label lblYon4;
-		private System.Windows.Forms.Label lblYon3;
 		private System.Windows.Forms.Label lblHiz5;
 		private System.Windows.Forms.Label lblHiz4;
 		private System.Windows.Forms.Label lblHiz3;
 		private System.Windows.Forms.Label lblHiz2;
 		private System.Windows.Forms.Label lblHiz1;
+		private System.Windows.Forms.PictureBox pictureBox6;
+		private System.Windows.Forms.PictureBox pictureBox7;
+		private System.Windows.Forms.PictureBox pictureBox8;
+		private System.Windows.Forms.PictureBox pictureBox9;
+		private System.Windows.Forms.PictureBox pictureBox10;
+
 
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -91,10 +92,6 @@ namespace Hava_Durumu
 		/// <summary>
 		/// This method is required for Windows Forms designer support.
 		/// Do not change the method contents inside the source code editor. The Forms designer might
-		/// not be able to load this method if it was changed manually.
-		/// </summary>
-		
-		
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
@@ -105,16 +102,16 @@ namespace Hava_Durumu
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.pictureBox6 = new System.Windows.Forms.PictureBox();
+			this.pictureBox7 = new System.Windows.Forms.PictureBox();
+			this.pictureBox8 = new System.Windows.Forms.PictureBox();
+			this.pictureBox9 = new System.Windows.Forms.PictureBox();
+			this.pictureBox10 = new System.Windows.Forms.PictureBox();
 			this.lblHiz5 = new System.Windows.Forms.Label();
 			this.lblHiz4 = new System.Windows.Forms.Label();
 			this.lblHiz3 = new System.Windows.Forms.Label();
 			this.lblHiz2 = new System.Windows.Forms.Label();
 			this.lblHiz1 = new System.Windows.Forms.Label();
-			this.lblYon5 = new System.Windows.Forms.Label();
-			this.lblYon4 = new System.Windows.Forms.Label();
-			this.lblYon3 = new System.Windows.Forms.Label();
-			this.lblYon2 = new System.Windows.Forms.Label();
-			this.lblYon1 = new System.Windows.Forms.Label();
 			this.lblNemYuk5 = new System.Windows.Forms.Label();
 			this.lblNemDus5 = new System.Windows.Forms.Label();
 			this.lblYuk5 = new System.Windows.Forms.Label();
@@ -159,6 +156,11 @@ namespace Hava_Durumu
 			this.label3 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -231,16 +233,16 @@ namespace Hava_Durumu
 			// 
 			// panel2
 			// 
+			this.panel2.Controls.Add(this.pictureBox6);
+			this.panel2.Controls.Add(this.pictureBox7);
+			this.panel2.Controls.Add(this.pictureBox8);
+			this.panel2.Controls.Add(this.pictureBox9);
+			this.panel2.Controls.Add(this.pictureBox10);
 			this.panel2.Controls.Add(this.lblHiz5);
 			this.panel2.Controls.Add(this.lblHiz4);
 			this.panel2.Controls.Add(this.lblHiz3);
 			this.panel2.Controls.Add(this.lblHiz2);
 			this.panel2.Controls.Add(this.lblHiz1);
-			this.panel2.Controls.Add(this.lblYon5);
-			this.panel2.Controls.Add(this.lblYon4);
-			this.panel2.Controls.Add(this.lblYon3);
-			this.panel2.Controls.Add(this.lblYon2);
-			this.panel2.Controls.Add(this.lblYon1);
 			this.panel2.Controls.Add(this.lblNemYuk5);
 			this.panel2.Controls.Add(this.lblNemDus5);
 			this.panel2.Controls.Add(this.lblYuk5);
@@ -288,9 +290,61 @@ namespace Hava_Durumu
 			this.panel2.Size = new System.Drawing.Size(801, 375);
 			this.panel2.TabIndex = 5;
 			// 
+			// pictureBox6
+			// 
+			this.pictureBox6.BackColor = System.Drawing.Color.White;
+			this.pictureBox6.Location = new System.Drawing.Point(659, 310);
+			this.pictureBox6.Name = "pictureBox6";
+			this.pictureBox6.Size = new System.Drawing.Size(83, 55);
+			this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBox6.TabIndex = 56;
+			this.pictureBox6.TabStop = false;
+			// 
+			// pictureBox7
+			// 
+			this.pictureBox7.BackColor = System.Drawing.Color.White;
+			this.pictureBox7.Location = new System.Drawing.Point(659, 250);
+			this.pictureBox7.Name = "pictureBox7";
+			this.pictureBox7.Size = new System.Drawing.Size(83, 55);
+			this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBox7.TabIndex = 55;
+			this.pictureBox7.TabStop = false;
+			// 
+			// pictureBox8
+			// 
+			this.pictureBox8.BackColor = System.Drawing.Color.White;
+			this.pictureBox8.Location = new System.Drawing.Point(659, 190);
+			this.pictureBox8.Name = "pictureBox8";
+			this.pictureBox8.Size = new System.Drawing.Size(83, 55);
+			this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBox8.TabIndex = 54;
+			this.pictureBox8.TabStop = false;
+			// 
+			// pictureBox9
+			// 
+			this.pictureBox9.BackColor = System.Drawing.Color.White;
+			this.pictureBox9.Location = new System.Drawing.Point(659, 130);
+			this.pictureBox9.Name = "pictureBox9";
+			this.pictureBox9.Size = new System.Drawing.Size(83, 55);
+			this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBox9.TabIndex = 53;
+			this.pictureBox9.TabStop = false;
+			// 
+			// pictureBox10
+			// 
+			this.pictureBox10.BackColor = System.Drawing.Color.White;
+			this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.pictureBox10.Location = new System.Drawing.Point(659, 70);
+			this.pictureBox10.Name = "pictureBox10";
+			this.pictureBox10.Size = new System.Drawing.Size(83, 55);
+			this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBox10.TabIndex = 52;
+			this.pictureBox10.TabStop = false;
+			// 
 			// lblHiz5
 			// 
 			this.lblHiz5.BackColor = System.Drawing.Color.White;
+			this.lblHiz5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(179)))), ((int)(((byte)(160)))));
 			this.lblHiz5.Location = new System.Drawing.Point(745, 310);
 			this.lblHiz5.Name = "lblHiz5";
 			this.lblHiz5.Size = new System.Drawing.Size(55, 55);
@@ -300,6 +354,7 @@ namespace Hava_Durumu
 			// lblHiz4
 			// 
 			this.lblHiz4.BackColor = System.Drawing.Color.White;
+			this.lblHiz4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(179)))), ((int)(((byte)(160)))));
 			this.lblHiz4.Location = new System.Drawing.Point(745, 250);
 			this.lblHiz4.Name = "lblHiz4";
 			this.lblHiz4.Size = new System.Drawing.Size(55, 55);
@@ -309,6 +364,7 @@ namespace Hava_Durumu
 			// lblHiz3
 			// 
 			this.lblHiz3.BackColor = System.Drawing.Color.White;
+			this.lblHiz3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(179)))), ((int)(((byte)(160)))));
 			this.lblHiz3.Location = new System.Drawing.Point(745, 190);
 			this.lblHiz3.Name = "lblHiz3";
 			this.lblHiz3.Size = new System.Drawing.Size(55, 55);
@@ -318,6 +374,7 @@ namespace Hava_Durumu
 			// lblHiz2
 			// 
 			this.lblHiz2.BackColor = System.Drawing.Color.White;
+			this.lblHiz2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(179)))), ((int)(((byte)(160)))));
 			this.lblHiz2.Location = new System.Drawing.Point(745, 130);
 			this.lblHiz2.Name = "lblHiz2";
 			this.lblHiz2.Size = new System.Drawing.Size(55, 55);
@@ -327,56 +384,12 @@ namespace Hava_Durumu
 			// lblHiz1
 			// 
 			this.lblHiz1.BackColor = System.Drawing.Color.White;
+			this.lblHiz1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(179)))), ((int)(((byte)(160)))));
 			this.lblHiz1.Location = new System.Drawing.Point(745, 70);
 			this.lblHiz1.Name = "lblHiz1";
 			this.lblHiz1.Size = new System.Drawing.Size(55, 55);
 			this.lblHiz1.TabIndex = 47;
 			this.lblHiz1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lblYon5
-			// 
-			this.lblYon5.BackColor = System.Drawing.Color.White;
-			this.lblYon5.Location = new System.Drawing.Point(659, 310);
-			this.lblYon5.Name = "lblYon5";
-			this.lblYon5.Size = new System.Drawing.Size(83, 55);
-			this.lblYon5.TabIndex = 46;
-			this.lblYon5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lblYon4
-			// 
-			this.lblYon4.BackColor = System.Drawing.Color.White;
-			this.lblYon4.Location = new System.Drawing.Point(659, 250);
-			this.lblYon4.Name = "lblYon4";
-			this.lblYon4.Size = new System.Drawing.Size(83, 55);
-			this.lblYon4.TabIndex = 45;
-			this.lblYon4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lblYon3
-			// 
-			this.lblYon3.BackColor = System.Drawing.Color.White;
-			this.lblYon3.Location = new System.Drawing.Point(659, 190);
-			this.lblYon3.Name = "lblYon3";
-			this.lblYon3.Size = new System.Drawing.Size(83, 55);
-			this.lblYon3.TabIndex = 44;
-			this.lblYon3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lblYon2
-			// 
-			this.lblYon2.BackColor = System.Drawing.Color.White;
-			this.lblYon2.Location = new System.Drawing.Point(659, 130);
-			this.lblYon2.Name = "lblYon2";
-			this.lblYon2.Size = new System.Drawing.Size(83, 55);
-			this.lblYon2.TabIndex = 43;
-			this.lblYon2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lblYon1
-			// 
-			this.lblYon1.BackColor = System.Drawing.Color.White;
-			this.lblYon1.Location = new System.Drawing.Point(659, 70);
-			this.lblYon1.Name = "lblYon1";
-			this.lblYon1.Size = new System.Drawing.Size(83, 55);
-			this.lblYon1.TabIndex = 42;
-			this.lblYon1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lblNemYuk5
 			// 
@@ -678,6 +691,7 @@ namespace Hava_Durumu
 			this.pictureBox5.Location = new System.Drawing.Point(183, 310);
 			this.pictureBox5.Name = "pictureBox5";
 			this.pictureBox5.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pictureBox5.TabIndex = 12;
 			this.pictureBox5.TabStop = false;
 			// 
@@ -687,6 +701,7 @@ namespace Hava_Durumu
 			this.pictureBox4.Location = new System.Drawing.Point(183, 250);
 			this.pictureBox4.Name = "pictureBox4";
 			this.pictureBox4.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pictureBox4.TabIndex = 11;
 			this.pictureBox4.TabStop = false;
 			// 
@@ -696,6 +711,7 @@ namespace Hava_Durumu
 			this.pictureBox3.Location = new System.Drawing.Point(183, 190);
 			this.pictureBox3.Name = "pictureBox3";
 			this.pictureBox3.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pictureBox3.TabIndex = 10;
 			this.pictureBox3.TabStop = false;
 			// 
@@ -705,6 +721,7 @@ namespace Hava_Durumu
 			this.pictureBox2.Location = new System.Drawing.Point(184, 130);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pictureBox2.TabIndex = 9;
 			this.pictureBox2.TabStop = false;
 			// 
@@ -715,6 +732,7 @@ namespace Hava_Durumu
 			this.pictureBox1.Location = new System.Drawing.Point(184, 70);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(81, 55);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pictureBox1.TabIndex = 8;
 			this.pictureBox1.TabStop = false;
 			// 
@@ -815,6 +833,11 @@ namespace Hava_Durumu
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.panel1.ResumeLayout(false);
 			this.panel2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
