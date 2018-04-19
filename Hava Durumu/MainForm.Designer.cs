@@ -19,11 +19,6 @@ namespace Hava_Durumu
 		private System.Windows.Forms.ComboBox cmbIlceler;
 		private System.Windows.Forms.Button btnKapat;
 		private System.Windows.Forms.Panel panel2;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
@@ -73,6 +68,11 @@ namespace Hava_Durumu
 		private System.Windows.Forms.PictureBox pictureBox8;
 		private System.Windows.Forms.PictureBox pictureBox9;
 		private System.Windows.Forms.PictureBox pictureBox10;
+		private System.Windows.Forms.Label lblTarih5;
+		private System.Windows.Forms.Label lblTarih4;
+		private System.Windows.Forms.Label lblTarih3;
+		private System.Windows.Forms.Label lblTarih2;
+		private System.Windows.Forms.Label lblTarih1;
 
 
 		/// <summary>
@@ -94,7 +94,6 @@ namespace Hava_Durumu
 		/// Do not change the method contents inside the source code editor. The Forms designer might
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.btnKapat = new System.Windows.Forms.Button();
 			this.cmbIller = new System.Windows.Forms.ComboBox();
@@ -148,11 +147,11 @@ namespace Hava_Durumu
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label10 = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
+			this.lblTarih5 = new System.Windows.Forms.Label();
+			this.lblTarih4 = new System.Windows.Forms.Label();
+			this.lblTarih3 = new System.Windows.Forms.Label();
+			this.lblTarih2 = new System.Windows.Forms.Label();
+			this.lblTarih1 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
@@ -180,14 +179,16 @@ namespace Hava_Durumu
 			// 
 			// btnKapat
 			// 
-			this.btnKapat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnKapat.BackgroundImage")));
 			this.btnKapat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.btnKapat.FlatAppearance.BorderSize = 0;
 			this.btnKapat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnKapat.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnKapat.ForeColor = System.Drawing.Color.White;
 			this.btnKapat.Location = new System.Drawing.Point(984, 0);
 			this.btnKapat.Name = "btnKapat";
 			this.btnKapat.Size = new System.Drawing.Size(34, 32);
 			this.btnKapat.TabIndex = 0;
+			this.btnKapat.Text = "X";
 			this.btnKapat.UseVisualStyleBackColor = true;
 			this.btnKapat.Click += new System.EventHandler(this.btnKapatClick);
 			// 
@@ -279,11 +280,11 @@ namespace Hava_Durumu
 			this.panel2.Controls.Add(this.pictureBox1);
 			this.panel2.Controls.Add(this.label10);
 			this.panel2.Controls.Add(this.label9);
-			this.panel2.Controls.Add(this.label8);
-			this.panel2.Controls.Add(this.label7);
-			this.panel2.Controls.Add(this.label6);
-			this.panel2.Controls.Add(this.label5);
-			this.panel2.Controls.Add(this.label4);
+			this.panel2.Controls.Add(this.lblTarih5);
+			this.panel2.Controls.Add(this.lblTarih4);
+			this.panel2.Controls.Add(this.lblTarih3);
+			this.panel2.Controls.Add(this.lblTarih2);
+			this.panel2.Controls.Add(this.lblTarih1);
 			this.panel2.Controls.Add(this.label3);
 			this.panel2.Location = new System.Drawing.Point(145, 91);
 			this.panel2.Name = "panel2";
@@ -756,59 +757,60 @@ namespace Hava_Durumu
 			this.label9.Text = "TAHMİN EDİLEN";
 			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label8
+			// lblTarih5
 			// 
-			this.label8.BackColor = System.Drawing.Color.White;
-			this.label8.Location = new System.Drawing.Point(3, 310);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(174, 55);
-			this.label8.TabIndex = 5;
-			this.label8.Text = "label8";
-			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblTarih5.BackColor = System.Drawing.Color.White;
+			this.lblTarih5.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTarih5.Location = new System.Drawing.Point(3, 310);
+			this.lblTarih5.Name = "lblTarih5";
+			this.lblTarih5.Size = new System.Drawing.Size(174, 55);
+			this.lblTarih5.TabIndex = 5;
+			this.lblTarih5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label7
+			// lblTarih4
 			// 
-			this.label7.BackColor = System.Drawing.Color.White;
-			this.label7.Location = new System.Drawing.Point(3, 250);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(174, 55);
-			this.label7.TabIndex = 4;
-			this.label7.Text = "label7";
-			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblTarih4.BackColor = System.Drawing.Color.White;
+			this.lblTarih4.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTarih4.Location = new System.Drawing.Point(3, 250);
+			this.lblTarih4.Name = "lblTarih4";
+			this.lblTarih4.Size = new System.Drawing.Size(174, 55);
+			this.lblTarih4.TabIndex = 4;
+			this.lblTarih4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label6
+			// lblTarih3
 			// 
-			this.label6.BackColor = System.Drawing.Color.White;
-			this.label6.Location = new System.Drawing.Point(3, 190);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(174, 55);
-			this.label6.TabIndex = 3;
-			this.label6.Text = "label6";
-			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblTarih3.BackColor = System.Drawing.Color.White;
+			this.lblTarih3.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTarih3.Location = new System.Drawing.Point(3, 190);
+			this.lblTarih3.Name = "lblTarih3";
+			this.lblTarih3.Size = new System.Drawing.Size(174, 55);
+			this.lblTarih3.TabIndex = 3;
+			this.lblTarih3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label5
+			// lblTarih2
 			// 
-			this.label5.BackColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(3, 130);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(174, 55);
-			this.label5.TabIndex = 2;
-			this.label5.Text = "label5";
-			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblTarih2.BackColor = System.Drawing.Color.White;
+			this.lblTarih2.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTarih2.Location = new System.Drawing.Point(3, 130);
+			this.lblTarih2.Name = "lblTarih2";
+			this.lblTarih2.Size = new System.Drawing.Size(174, 55);
+			this.lblTarih2.TabIndex = 2;
+			this.lblTarih2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label4
+			// lblTarih1
 			// 
-			this.label4.BackColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(3, 70);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(174, 55);
-			this.label4.TabIndex = 1;
-			this.label4.Text = "label4";
-			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblTarih1.BackColor = System.Drawing.Color.White;
+			this.lblTarih1.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTarih1.Location = new System.Drawing.Point(3, 70);
+			this.lblTarih1.Name = "lblTarih1";
+			this.lblTarih1.Size = new System.Drawing.Size(174, 55);
+			this.lblTarih1.TabIndex = 1;
+			this.lblTarih1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label3
 			// 
 			this.label3.BackColor = System.Drawing.Color.White;
+			this.label3.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.Location = new System.Drawing.Point(3, 3);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(174, 63);

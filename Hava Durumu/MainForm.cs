@@ -122,7 +122,11 @@ namespace Hava_Durumu
 			pictureBox8.Image = RotateImage(image,gunluk[0].RuzgarYonGun3);
 			pictureBox7.Image = RotateImage(image,gunluk[0].RuzgarYonGun4);
 			pictureBox6.Image = RotateImage(image,gunluk[0].RuzgarYonGun5);
-			
+			lblTarih1.Text = gunluk[0].TarihGun1.Replace("T00:00:00.000Z","");
+			lblTarih2.Text = gunluk[0].TarihGun2.Replace("T00:00:00.000Z","");
+			lblTarih3.Text = gunluk[0].TarihGun3.Replace("T00:00:00.000Z","");
+			lblTarih4.Text = gunluk[0].TarihGun4.Replace("T00:00:00.000Z","");
+			lblTarih5.Text = gunluk[0].TarihGun5.Replace("T00:00:00.000Z","");
 			
 	
 		}
@@ -160,6 +164,9 @@ namespace Hava_Durumu
 		{
        		return RotateImage(image, new PointF((float)image.Width / 2, (float)image.Height / 2), angle);
         }
+		
+		
+
 		
 	}
 }

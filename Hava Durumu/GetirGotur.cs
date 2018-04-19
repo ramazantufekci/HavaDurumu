@@ -56,7 +56,7 @@ namespace Hava_Durumu
 				
 			} catch (Exception ex) {
 				
-				System.Windows.Forms.MessageBox.Show("ilçeleri çekerken sorun oldu!!!");
+				System.Windows.Forms.MessageBox.Show("ilçeleri çekerken sorun oldu!!!"+ex.Message);
 			} 
 			return ilceler;
 		}
@@ -75,7 +75,7 @@ namespace Hava_Durumu
 				
 			} catch (Exception ex) {
 				
-				System.Windows.Forms.MessageBox.Show("Günlük hava durumunu çekerken sorun oldu!!!");
+				System.Windows.Forms.MessageBox.Show("Günlük hava durumunu çekerken sorun oldu!!!"+ex.Message);
 			} 
 			return gunluk;
 		}
