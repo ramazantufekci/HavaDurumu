@@ -164,7 +164,9 @@ namespace Hava_Durumu
 		{
        		return RotateImage(image, new PointF((float)image.Width / 2, (float)image.Height / 2), angle);
         }
+
 		
+	
 		
 
 		
