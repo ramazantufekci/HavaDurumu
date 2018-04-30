@@ -94,6 +94,7 @@ namespace Hava_Durumu
 		/// Do not change the method contents inside the source code editor. The Forms designer might
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.btnKapat = new System.Windows.Forms.Button();
 			this.cmbIller = new System.Windows.Forms.ComboBox();
@@ -830,6 +831,7 @@ namespace Hava_Durumu
 			this.Controls.Add(this.cmbIller);
 			this.Controls.Add(this.panel1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "MainForm";
 			this.Text = "Form1";
 			this.Load += new System.EventHandler(this.MainFormLoad);
