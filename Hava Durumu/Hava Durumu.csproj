@@ -10,7 +10,8 @@
     <AssemblyName>Hava Durumu</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <ApplicationIcon>D:\1\if_seahorse_52384.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
     <NoWin32Manifest>False</NoWin32Manifest>
     <SignAssembly>False</SignAssembly>
     <DelaySign>False</DelaySign>
@@ -117,9 +118,9 @@
     <None Include="Resimler\Hadiseler\SY.svg" />
     <None Include="Resimler\Hadiseler\Y.svg" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resimler" />
-    <Folder Include="Resimler\Hadiseler" />
+    <None Include="Resources\%24this.Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

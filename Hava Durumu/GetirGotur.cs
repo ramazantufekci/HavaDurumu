@@ -19,9 +19,9 @@ namespace Hava_Durumu
 	/// </summary>
 	public class GetirGotur
 	{
-		string illerUrl = "https://servis.mgm.gov.tr/api/merkezler/iller";
-		string ilceUrl = "https://servis.mgm.gov.tr/api/merkezler/ililcesi?il=";
-		string gunlukUrl = "https://servis.mgm.gov.tr/api/tahminler/gunluk?istno=";
+		string illerUrl = "https://servis.mgm.gov.tr/web/merkezler/iller";
+		string ilceUrl = "https://servis.mgm.gov.tr/web/merkezler/ililcesi?il=";
+		string gunlukUrl = "https://servis.mgm.gov.tr/web/tahminler/gunluk?istno=";
 
 		public List<iller> ilGetir()
 		{
@@ -30,6 +30,8 @@ namespace Hava_Durumu
 					using(WebClient wClient = new WebClient())
 				{
 					wClient.Encoding = Encoding.UTF8;
+                    wClient.Headers.Add("Referer", "https://www.mgm.gov.tr/tahmin/il-ve-ilceler.aspx");
+                    wClient.Headers.Add("Origin", "https://www.mgm.gov.tr");
 					var response = wClient.DownloadString(illerUrl);
 					Iller = JsonConvert.DeserializeObject<List<iller>>(response);
 					
@@ -49,7 +51,9 @@ namespace Hava_Durumu
 				using(WebClient wClient = new WebClient())
 				{
 					wClient.Encoding = Encoding.UTF8;
-					var response = wClient.DownloadString(ilceUrl+ilce);
+                    wClient.Headers.Add("Referer", "https://www.mgm.gov.tr/tahmin/il-ve-ilceler.aspx");
+                    wClient.Headers.Add("Origin", "https://www.mgm.gov.tr");
+                    var response = wClient.DownloadString(ilceUrl+ilce);
 					ilceler = JsonConvert.DeserializeObject<List<iller>>(response);
 					
 				}
@@ -68,7 +72,9 @@ namespace Hava_Durumu
 				using(WebClient wClient = new WebClient())
 				{
 					wClient.Encoding = Encoding.UTF8;
-					var response = wClient.DownloadString(gunlukUrl+merkezId);
+                    wClient.Headers.Add("Referer", "https://www.mgm.gov.tr/tahmin/il-ve-ilceler.aspx");
+                    wClient.Headers.Add("Origin", "https://www.mgm.gov.tr");
+                    var response = wClient.DownloadString(gunlukUrl+merkezId);
 					gunluk = JsonConvert.DeserializeObject<List<Gunluk>>(response);
 					
 				}

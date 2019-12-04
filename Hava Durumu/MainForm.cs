@@ -39,6 +39,7 @@ namespace Hava_Durumu
 		#region Svg Render
 		public static Bitmap GetBitmapFromSVG(string filePath)
         {
+            
 				SvgDocument de = SvgDocument.Open(filePath);
 				//SvgDocument document = GetSvgDocument(filePath);
           
